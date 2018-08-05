@@ -73,7 +73,6 @@ const IndexPage = () => (
         image={cell.image} />
       ))}
     </SectionCellGroup>
-    
   </div>
 )
 
