@@ -4,21 +4,21 @@ import Wave from './Wave'
 
 const SectionGroup = styled.div`
     background: url(${props => props.image});
-    height: 720px;
+    height: 1000px;
     background-size: cover;
     display: grid;
-    grid-template-rows: 300px auto;
+    grid-template-rows: 300 auto;
     grid-gap: 20px;
     position: relative;
 
     @media (max-width: 640px) {
-        height: 820px;
+        height: 1000px;
     }
 `
 
 const SectionLogo = styled.img`
     align-self: end;
-    width: 120px;
+    width: 200px;
     margin: 0 auto;
 `
 

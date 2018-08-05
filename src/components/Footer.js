@@ -23,9 +23,10 @@ const Button = styled.button`
     color: white;
     border: none;
     padding: 16px 60px;
-    font-weight: 600;
+    font-weight: ;
     font-size: 24px;
     justify-self: center;
+    transition:  0.8s cubic-bezier(0.7, 0.8, 0.2, 1);
 
     &:hover {
         box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
@@ -40,9 +41,12 @@ const LinkGroup = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
+    jusitfy-items: center;
+    padding: 0 50px;
+    box-sizing: border-box;
 
     a {
-        transition: 0.8s;
+        transition: 1s;
     }
 
     a:hover {

@@ -60,7 +60,7 @@ const IndexPage = () => (
     <Plx parallaxData={SlideIn2}>
       <Section
         image={require('../images/wallpaper2.jpg')}
-        logo={require('../images/logo-react.png')}
+        logo={require('../images/iphone2.png')}
         title="React for Designers"
         text="Learn how to build a modern site using React and the most efficient libraries to get your site/product online. Get familiar with components, Grid CSS, animations, interactions, dynamic data with Contentful and deploying your site with Netlify."
       />
