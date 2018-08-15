@@ -48,10 +48,10 @@ class Header extends React.Component {
     return (
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
         <div className="HeaderGroup">
-          <Link to="/"><img src={require('../images/kinobody-logo-2015.png')} width="150" /></Link>
-          <Link to="/courses">Courses</Link>
-          <Link to="/downloads">Downloads</Link>
-          <Link to="/workshops">Workshops</Link>
+          <Link to="/"><img src={require('../images/major_blazers_logo.png')} width="150" /></Link>
+          <Link to="/ourstory">Our Story</Link>
+          <Link to="/FAQs">FAQs</Link>
+          <Link to="/Contact Us">Contact Us</Link>
           <StripeCheckout
             amount={5000}
             image="https://cl.ly/0K2f1V3K3h0D/download/Logo.jpg"

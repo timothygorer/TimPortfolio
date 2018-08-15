@@ -7,33 +7,17 @@ import staticdata from '../../staticdata.json'
 import Cell from '../components/Cell';
 import styled from 'styled-components'
 import Plx from 'react-plx';
+import Hero from '../components/Hero';
 
 const IndexPage = () => (
   <div>
-    <div className="Hero">
-      <div className="HeroGroup">
-        <h1>My name is< br/>Timothy Gorer</h1>
-        <p>I am an iOS development intern at Fanatics. Today I will talk about my summer accomplishments.</p>
-        <Link to="/page-2/">Go to page 2</Link>
-        <div className="Logos">
-          <img src={require('../images/logo-sketch.png')}
-          width="50" />
-          <img src={require('../images/logo-figma.png')}
-          width="50" />
-          <img src={require('../images/logo-studio.png')}
-          width="50" />
-          <img src={require('../images/logo-framer.png')}
-          width="50" />
-          <img src={require('../images/logo-react.png')}
-          width="50" />
-          <img src={require('../images/logo-swift.png')}
-          width="50" />
-        </div>
-        <Wave />
-      </div>
-    </div>
+    <Hero
+        title="Major Blazers Glass Blunt"
+        text="best reusable blunt for $9.99"
+        image={require('../images/glassblunt.jpg')}>
+    </Hero>
     <div className="Cards">
-      <h2>11 courses, more coming</h2>
+      <h2>Glass Blunt Features</h2>
       <div className="CardGroup">
       <Plx parallaxData={SlideIn}>
         <Card 
@@ -60,7 +44,6 @@ const IndexPage = () => (
     <Plx parallaxData={SlideIn2}>
       <Section
         image={require('../images/wallpaper2.jpg')}
-        logo={require('../images/iphone2.png')}
         title="React for Designers"
         text="Learn how to build a modern site using React and the most efficient libraries to get your site/product online. Get familiar with components, Grid CSS, animations, interactions, dynamic data with Contentful and deploying your site with Netlify."
       />

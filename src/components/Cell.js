@@ -26,7 +26,6 @@ const Cell = props => (
     <CellGroup>
         <CellImage image={props.image}></CellImage>
         <CellTitle>{props.title}</CellTitle>
-
     </CellGroup>
 )
 
