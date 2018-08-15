@@ -1,52 +1,28 @@
 {
 	"cells": [
 		{
-			"title": "Intro to React",
-			"image": "https://cl.ly/1U1F170x3D0L/download/logo-react-small.png"
+			"title": "1 x Major Blazers Glass Blunt",
+			"image": "https://cl.ly/2A462W1H3a1O/download/major_blazers_flame.png"
 		},
 		{
-			"title": "Basic Styling in CSS",
-			"image": "https://cl.ly/1U1F170x3D0L/download/logo-react-small.png"
+			"title": "1 x Glass Tube",
+			"image": "https://cl.ly/2A462W1H3a1O/download/major_blazers_flame.png"
 		},
 		{
-			"title": "Adaptive Layout with CSS Grid",
-			"image": "https://cl.ly/1U1F170x3D0L/download/logo-react-small.png"
+			"title": "2 x Cleaning Brush",
+			"image": "https://cl.ly/2A462W1H3a1O/download/major_blazers_flame.png"
 		},
 		{
-			"title": "Interactions and Animations",
-			"image": "https://cl.ly/1U1F170x3D0L/download/logo-react-small.png"
+			"title": "2 x O-Ring",
+			"image": "https://cl.ly/2A462W1H3a1O/download/major_blazers_flame.png"
 		},
 		{
-			"title": "SVG Animation",
-			"image": "https://cl.ly/1U1F170x3D0L/download/logo-react-small.png"
+			"title": "2 x Rubber Cap",
+			"image": "https://cl.ly/2A462W1H3a1O/download/major_blazers_flame.png"
 		},
 		{
-			"title": "Components and Props",
-			"image": "https://cl.ly/1U1F170x3D0L/download/logo-react-small.png"
-		},
-		{
-			"title": "States and Events",
-			"image": "https://cl.ly/1U1F170x3D0L/download/logo-react-small.png"
-		},
-		{
-			"title": "Styled Components",
-			"image": "https://cl.ly/1U1F170x3D0L/download/logo-react-small.png"
-		},
-		{
-			"title": "Static Data with JSON",
-			"image": "https://cl.ly/1U1F170x3D0L/download/logo-react-small.png"
-		},
-		{
-			"title": "GraphQL with Contentful",
-			"image": "https://cl.ly/1U1F170x3D0L/download/logo-react-small.png"
-		},
-		{
-			"title": "Publish to Netlify",
-			"image": "https://cl.ly/1U1F170x3D0L/download/logo-react-small.png"
-		},
-		{
-			"title": "Payment with Stripe Checkout",
-			"image": "https://cl.ly/1U1F170x3D0L/download/logo-react-small.png"
+			"title": "1 x Mouthpiece & Screwing Mechanism",
+			"image": "https://cl.ly/2A462W1H3a1O/download/major_blazers_flame.png"
 		}
 	]
 }

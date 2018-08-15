@@ -11,7 +11,7 @@ const HeroMain = styled.div`
 
     h1 {
         margin: 0;
-        color: white;
+        color: ${props => props.titleColor};
         font-size: 80px;
         line-height: 1.2;
         opacity: 0;
@@ -44,7 +44,7 @@ const HeroMain = styled.div`
     }
 
     p {
-        color: rgba(255, 255, 255, 0.8);
+        color: ${props => props.paragraphColor};
         font-size: 30px;
         line-height: 1.5;
         animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -89,7 +89,7 @@ const HeroGroup = styled.div`
 `
 
 const Hero = props => (
-    <HeroMain image={props.image}>
+    <HeroMain image={props.image} titleColor={props.titleColor} paragraphColor={props.paragraphColor}>
         <HeroGroup>
             <h1>{props.title}</h1>
             <p>{props.text}</p>

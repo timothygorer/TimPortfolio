@@ -19,7 +19,7 @@ const Layout = ({ children, data }) => (
     <Header />
     {children()}
     <Footer data={data}>
-      Backgrounds made in Cinema 4D, iOS app in Swift, site in React. <a href="mailto:support@designcode.io">Email us</a> to ask anything. © 2018
+      Secure SSL encrypted checkout via Stripe Inc. <a href="mailto:support@majorblazers.com">Email us</a> to ask anything. © Major Blazers 2018
     </Footer>
   </div>
 )

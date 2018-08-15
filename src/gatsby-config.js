@@ -1,9 +1,9 @@
 
 module.exports = {
   siteMetadata: {
-	title: 'iBubble',
-	description: 'Complete courses about the best tools and design systems. Prototype and build apps with React and Swift. 60 hours of video content and resource materials. No coding experience required.',
-	keywords: 'react course, react for designers, ios development, sketch app, swift app course, arkit 2, after effects, create sketch plugin'
+  title: 'Major Blazers',
+  description: 'The Major Blazers Glass Blunt is the perfect tool for weed smokers who want a fast and easy way to smoke anywhere, anytime.',
+  keywords: 'major blazers, blaze, weed, joint, blunt, best smoke bong, best bong, best pipe, best smoke accessories'
   },
   plugins: [
     'gatsby-plugin-react-helmet',

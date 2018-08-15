@@ -14,6 +14,8 @@ const IndexPage = () => (
     <Hero
         title="Major Blazers Glass Blunt"
         text="best reusable blunt for $9.99"
+        titleColor="white"
+        paragraphColor="white"
         image={require('../images/glassblunt.jpg')}>
     </Hero>
     <div className="Cards">
@@ -21,34 +23,31 @@ const IndexPage = () => (
       <div className="CardGroup">
       <Plx parallaxData={SlideIn}>
         <Card 
-        title="Design System"
-        text="10 sections"
-        image={require('../images/wallpaper.jpg')} />
+        title="Unique Design"
+        text="Stores 1.5 grams and includes a cork-screw twisting memchanism"
+        image={require('../images/card1.png')} />
       </Plx>
       <Plx parallaxData={SlideIn}>
         <Card 
-        title="React for Designers"
-        text="12 sections"
-        image={require('../images/wallpaper2.jpg')} />
+        title="Cleaning Kit"
+        text="Clean when you want to reuse"
+        image={require('../images/card2.png')} />
       </Plx>
+      <Plx parallaxData={SlideIn}>
         <Card 
-        title="Sound Design"
-        text="5 sections"
-        image={require('../images/wallpaper3.jpg')} />
-        <Card 
-        title="ARKit 2"
-        text="10 sections"
-        image={require('../images/wallpaper4.jpg')} />
+        title="Hassle-Free Use"
+        text="Just insert, twist, and light"
+        image={require('../images/card3.png')} />
+      </Plx>
       </div>
     </div>
     <Plx parallaxData={SlideIn2}>
       <Section
-        image={require('../images/wallpaper2.jpg')}
-        title="React for Designers"
-        text="Learn how to build a modern site using React and the most efficient libraries to get your site/product online. Get familiar with components, Grid CSS, animations, interactions, dynamic data with Contentful and deploying your site with Netlify."
+        image={require('../images/packaging.png')}
+        title="The Packaging"
       />
     </Plx>
-    <SectionCaption>12 sections - 6 hours</SectionCaption>
+    <SectionCaption>What's Included</SectionCaption>
     <SectionCellGroup>
       {staticdata.cells.map(cell => (
         <Cell 

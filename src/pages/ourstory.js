@@ -13,7 +13,9 @@ const SecondPage = () => (
   <div>
     <Hero
         title="Our Story"
-        image={require('../images/iphonex.png')} />
+        titleColor="black"
+        paragraphColor="black"
+        image={require('../images/ourstory.jpg')} />
   </div>
 )
 
