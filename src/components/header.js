@@ -66,7 +66,7 @@ class Header extends React.Component {
             stripeKey={'pk_test_U00rXKAE9s92NC6isDDrvmKh'}
             description="1 x Major Blazers Glass Blunt" // the pop-in header subtitle
             >
-            <button>Buy</button>
+            <button>Buy Now</button>
           </StripeCheckout>
         </div>
       </div>
