@@ -69,9 +69,9 @@ const HeroMain = styled.div`
         justify-items: center;
     }
 
-    @media (max-width: 640px) {
+    @media (max-width: 667px) {
         height: 400px;
-        width: 500px;
+        width: 667px;
 
         .Logos {
             grid-template-columns: repeat(3, 1fr);
