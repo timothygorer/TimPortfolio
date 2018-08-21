@@ -16,7 +16,35 @@ const SecondPage = () => (
         titleColor="black"
         paragraphColor="black"
         image={require('../images/ourstory.jpg')} />
+    <Plx parallaxData={SlideIn2}>
+      <Section
+        image={require('../images/packaging.png')}
+        title="The Packaging"
+        text="It all started with the idea that smoking should be simple and feel luxurious."
+      />
+    </Plx>
   </div>
 )
+
+const SlideIn2 = [
+  {
+    start: 'self',
+    startOffset: 0,
+    duration: 500,
+    easing: 'easeInOut',
+    properties: [
+      {
+        startValue: -100,
+        endValue: 0,
+        property: "translateY"
+      },
+      {
+        startValue: 0,
+        endValue: 1,
+        property: "opacity"
+      },
+    ]
+  }
+]
 
 export default SecondPage

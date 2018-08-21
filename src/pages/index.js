@@ -21,24 +21,24 @@ const IndexPage = () => (
     <div className="Cards">
       <h2>Glass Blunt Features</h2>
       <div className="CardGroup">
-      <Plx parallaxData={SlideIn}>
-        <Card 
-        title="Unique Design"
-        text="Stores 1.5 grams and includes a cork-screw twisting memchanism"
-        image={require('../images/card1.png')} />
-      </Plx>
-      <Plx parallaxData={SlideIn}>
-        <Card 
-        title="Cleaning Kit"
-        text="Clean when you want to reuse"
-        image={require('../images/card2.png')} />
-      </Plx>
-      <Plx parallaxData={SlideIn}>
-        <Card 
-        title="Hassle-Free Use"
-        text="Just insert, twist, and light"
-        image={require('../images/card3.png')} />
-      </Plx>
+        <Plx parallaxData={SlideIn}>
+          <Card 
+          title="Unique Design"
+          text="Stores 1.5 grams and includes a cork-screw twisting memchanism"
+          image={require('../images/card1.png')} />
+        </Plx>
+        <Plx parallaxData={SlideIn}>
+          <Card 
+          title="Cleaning Kit"
+          text="Clean when you want to reuse"
+          image={require('../images/card2.png')} />
+        </Plx>
+        <Plx parallaxData={SlideIn}>
+          <Card 
+          title="Hassle-Free Use"
+          text="Just insert, twist, and light"
+          image={require('../images/card3.png')} />
+        </Plx>
       </div>
     </div>
     <Plx parallaxData={SlideIn2}>

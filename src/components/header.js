@@ -27,21 +27,26 @@ class Header extends React.Component {
   }
 
   handlePurchase = (token) => {
-    const amount = 5000
-    const description = "My awesome product"
-
+    const amount = 999
+    const description = "Major Blazers Glass Blunt"
+  
     const bodyObject = {
       tokenId: token.id,
       email: token.email,
+      receipt_email: token.email,
       name: token.name,
       description,
       amount
     }
-
+  
     fetch('http://localhost:9000/stripe-charge', {
-      method: 'POST',
-      body: JSON.stringify(bodyObject)
-    })
+       method: 'POST',
+       body: JSON.stringify(bodyObject)
+    }).then(response => {
+      response.json().then(data => {
+        alert(`We are in business, ${data.email}`);
+      });
+    });
   }
 
   render() {
@@ -53,10 +58,13 @@ class Header extends React.Component {
           <Link to="/FAQs">FAQs</Link>
           <Link to="/Contact Us">Contact Us</Link>
           <StripeCheckout
-            amount={5000}
-            image="https://cl.ly/0K2f1V3K3h0D/download/Logo.jpg"
+            amount={1}
+            image="https://cl.ly/2A462W1H3a1O/download/major_blazers_flame.png"
+            receipt_email
+            shippingAddress
             token={this.handlePurchase}
             stripeKey={'pk_test_U00rXKAE9s92NC6isDDrvmKh'}
+            description="1 x Major Blazers Glass Blunt" // the pop-in header subtitle
             >
             <button>Buy</button>
           </StripeCheckout>
