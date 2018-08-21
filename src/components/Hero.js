@@ -70,8 +70,8 @@ const HeroMain = styled.div`
     }
 
     @media (max-width: 640px) {
-        height: 375px;
-        width: 667px;
+        height: 400px;
+        width: 500px;
 
         .Logos {
             grid-template-columns: repeat(3, 1fr);
