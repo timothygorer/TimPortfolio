@@ -47,7 +47,7 @@ const IndexPage = () => (
         title="The Packaging"
       />
     </Plx>
-    <SectionCaption>What's Included</SectionCaption>
+    <SectionCaption>What's Included:</SectionCaption>
     <SectionCellGroup>
       {staticdata.cells.map(cell => (
         <Cell 
