@@ -12,22 +12,22 @@ const IndexPage = () => (
   <div>
     <div className="Hero">
       <div className="HeroGroup">
-        <h1>My name is< br/>Timothy Gorer</h1>
+        <h1>My name is< br />Timothy Gorer</h1>
         <p>I am an iOS development intern at Fanatics. Today I will talk about my summer accomplishments.</p>
         <Link to="/page-2/">Go to page 2</Link>
         <div className="Logos">
           <img src={require('../images/logo-sketch.png')}
-          width="50" />
+            width="50" />
           <img src={require('../images/logo-figma.png')}
-          width="50" />
+            width="50" />
           <img src={require('../images/logo-studio.png')}
-          width="50" />
+            width="50" />
           <img src={require('../images/logo-framer.png')}
-          width="50" />
+            width="50" />
           <img src={require('../images/logo-react.png')}
-          width="50" />
+            width="50" />
           <img src={require('../images/logo-swift.png')}
-          width="50" />
+            width="50" />
         </div>
         <Wave />
       </div>
@@ -35,26 +35,26 @@ const IndexPage = () => (
     <div className="Cards">
       <h2>11 courses, more coming</h2>
       <div className="CardGroup">
-      <Plx parallaxData={SlideIn}>
-        <Card 
-        title="Design System"
-        text="10 sections"
-        image={require('../images/wallpaper.jpg')} />
-      </Plx>
-      <Plx parallaxData={SlideIn}>
-        <Card 
-        title="React for Designers"
-        text="12 sections"
-        image={require('../images/wallpaper2.jpg')} />
-      </Plx>
-        <Card 
-        title="Sound Design"
-        text="5 sections"
-        image={require('../images/wallpaper3.jpg')} />
-        <Card 
-        title="ARKit 2"
-        text="10 sections"
-        image={require('../images/wallpaper4.jpg')} />
+        <Plx parallaxData={SlideIn}>
+          <Card
+            title="Design System"
+            text="10 sections"
+            image={require('../images/wallpaper.jpg')} />
+        </Plx>
+        <Plx parallaxData={SlideIn}>
+          <Card
+            title="React for Designers"
+            text="12 sections"
+            image={require('../images/wallpaper2.jpg')} />
+        </Plx>
+        <Card
+          title="Sound Design"
+          text="5 sections"
+          image={require('../images/wallpaper3.jpg')} />
+        <Card
+          title="ARKit 2"
+          text="10 sections"
+          image={require('../images/wallpaper4.jpg')} />
       </div>
     </div>
     <Plx parallaxData={SlideIn2}>
@@ -68,12 +68,12 @@ const IndexPage = () => (
     <SectionCaption>12 sections - 6 hours</SectionCaption>
     <SectionCellGroup>
       {staticdata.cells.map(cell => (
-        <Cell 
-        title={cell.title}
-        image={cell.image} />
+        <Cell
+          title={cell.title}
+          image={cell.image} />
       ))}
     </SectionCellGroup>
-    
+
   </div>
 )
 
@@ -117,7 +117,7 @@ const SlideIn = [
         endValue: 1,
         property: "opacity"
       },
-      { 
+      {
         startValue: 30,
         endValue: 0,
         property: "rotate"
